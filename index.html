@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start button -->
+    <div class="start-btn">
+        <button>Start Quiz</button>
+    </div>
+
+    <div class="guide-box">
+        <div class="guide-head"><span>Read the instructions carefully.</span></div>
+        <div class="guide-list">
+            <div class="list">1. You have only <span>15 seconds</span> to answer each quiz question.</div>
+            <div class="list">2. Once you begin the quiz, you can't exit.</div>
+            <div class="list">3. Once the time elapses, you can't select any options.</div>
+            <div class="list">4. Once an option is selected, you can't select any other. So be sure before you choose.</div>
+        </div>
+        <div class="buttons">
+            <button class="exit">Exit</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz content box -->
+    <div class="content-box">
+        <header>
+            <div class="timer">
+                <div class="t-left">Time Left: </div>
+                <div class="t-sec">14</div>
+            </div>
+            <div class="progress-bar"></div>
+        </header>
+
+        <section class="main-sec">
+            <div class="question">
+                <!-- Questions are stored here using javascript DOM -->
+            </div>
+            <div class="option_box">
+                <!-- Various options are stored here using javascript DOM -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="que-history">
+                <!-- space for displaying the number of questions answered using javascript -->
+            </div>
+            <div class="btn">
+                <button class="nextBtn">Next Question</button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result-box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        
+        <div class="text"></div>
+        <div class="score">
+            <!-- score displayed here using javascript -->
+        </div>
+
+        <div class="button">
+            <button class="play-again">Play Again</button>
+            <button class="end">End Quiz</button>
+        </div>
+    </div>
+    <!-- GSAP animation CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <!-- JS file containing the questions -->
+    <script src="question.js"></script>
+
+    <!-- JS file containing the codes -->
+    <script src="script.js"></script>
+</body>
+</html>
