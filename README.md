@@ -1,14 +1,9 @@
 # Quiz-app
 
-# Car-Sales-Website-Landing-Page
-A landing page where potential buyers get to review latest orders and those high in demands before placing their order. They also get to view the current prices of the cars.
-
 ## OVERVIEW
 
-
 ### Links
-- Live Site URL: (https://anthonyemede.github.io/Car-Sales-Website-Landing-Page/public/)
-
+- Live Site URL: (https://anthonyemede.github.io/Quiz-app/)
 
 ## MY PROCESS
 
